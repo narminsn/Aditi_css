@@ -1,0 +1,616 @@
+
+body{
+    background: url("../image/background.png");
+    margin: 0;
+}
+@font-face{
+    font-family: Lobster;
+    src: url(/home/narmin/Documents/shopping/Lobster_1_4.otf);
+ }
+ @font-face{
+    font-family: Bebas;
+    src: url(/home/narmin/Documents/shopping/BebasNeue-Regular.ttf);
+ }
+ .xett{
+    border-left: 6px solid green;
+     height: 893px;
+     width: 0;
+     overflow: visible;
+     margin-top: 782px;
+     margin-left: 172px;
+     position: relative;
+     top: -823px;
+    
+ }
+ .xet{
+    border-left: 6px solid green;
+    height: 893px;
+    width: 0;
+    overflow: visible;
+    margin-top: -890px;
+    margin-left: 1636px;
+    position: relative;
+    top: -834px;
+ }
+ .container{
+	margin:0 auto;
+    width:1400px;
+    overflow: hidden;
+}
+.menu{
+    background: #ffffff;
+    overflow: auto;
+}
+
+.header{
+    padding: 1.5%;
+    padding-left: 1%;
+    overflow: auto;
+    padding-right: 1%;
+}
+
+p.logo {
+    float:left;
+    font-family: Lobster;
+    /* font-size: 64.5px; */
+    font-size: 50px;
+    color: rgba(62, 175, 156, 0.83);
+    margin: 0;
+
+}
+.menu form{
+    display: inline;
+}
+.menu input{
+    padding: 7px 167px; 
+    background: url("../image/searchbuttonn.png") no-repeat  478px 3px;
+    border: 1px solid #00000026;
+    margin-left: 344px;
+    margin-top: 18px;
+}
+div.search{
+    display: inline;
+}
+div.icon{
+    float: right;
+    display: inline;
+    margin-top: 8px;
+    margin-right: 46px;
+}
+
+.icon300{
+    display: inline;
+    /* margin-left: 1523px;
+     margin-top: 52px; */
+ }
+ .u300{
+     display: inline;
+     font-family: Bebas;
+     color: gray;
+     font-size: 2em; 
+     
+     
+     /* margin-left: 1567px;
+     margin-top: -46px; */
+ }
+.menu2{
+    background-color:rgb(58, 208, 194);
+    
+ }
+ .menu2 ul{
+    list-style-type: none;
+    padding-left: 89px;
+    margin-top: 0;
+
+   
+ }
+ .menu2 li{
+    font-family: Bebas;
+     display: inline-block;
+     color: white;
+     font-size: 26px;
+     padding: 8px 24px;
+    
+ }
+ .menu2 li::after{
+    content: "";
+    top: 0px;
+    width: 2px;
+    height: 17px;
+    position: relative;
+    background: white;
+    display: inline-block;
+    left: 25px;
+ }
+ .last{
+    padding: 0;
+    
+ }
+ .last::after{
+    display: none !important;
+ }
+ .menu2 .home{
+     padding-left: 0px; 
+ }
+ 
+ 
+ .banner img{
+    margin-left: 146px;
+    margin-top: 56px;
+    display: inline;
+ }
+ div.h1{
+    display: inline;
+    float: right;
+ }
+ .banner h1{
+    font-family: bebas;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 0; 
+    margin-right: 523px;
+    margin-top: 65px;
+     
+ }
+ .banner p{
+    font-family: opensans;
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 40px;
+    color: white;
+    margin-bottom: 0; 
+        
+ }
+ 
+ 
+ .banner button{
+    margin-left: 524px;
+    border-radius: 1px;
+    border: 4px solid;
+    color: white;
+    padding: 26px 57px;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+div.span{
+   margin-left: 545px;
+}
+
+ .white{
+   height: 10px;
+   width: 10px;
+   background-color: white;
+   border-radius: 50%;
+   display: inline-block;
+   margin-left: 9px;
+   margin-top: 61px;
+   float: left;
+ 
+     
+ }
+ .grey{
+    background-color: #f3f2f191;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 9px;
+    margin-top: 61px;
+    float: left; 
+     
+ }
+ .catagories{
+   margin-top: 33px;
+   background-color: white;
+   /* overflow: auto; */
+   
+}
+.catagories div.shoes{
+   margin-bottom: 34px;
+}
+
+img.shoes{
+   width: 67%;
+   float: left;
+   display: inline-block;
+   margin-top: 19px;
+
+}
+div.p{
+   display: inline-block
+   
+}
+p.shoes{
+   font-family: bebas;
+    color: #808080b0;
+    margin-top: 24px;
+    font-size: 36px;
+ 
+}
+
+
+button.shoes{
+   color: white;
+    background-color: #1dad7e;
+    padding: 13px 26px;
+    
+    border: none;
+    border-radius: 7px;
+}
+.catagories div.span{
+   overflow: hidden;
+   display: inline;
+   margin: auto;
+}
+span.shoes{
+   border-left: 1px solid #80808040;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    margin-left: 142px;
+}
+div.tshirt{
+   /* display: inline; */
+  
+}
+img.tshirt{
+   width: 100%;
+   margin-top: 28px;
+   
+}
+
+p.tshirt{
+   font-family: bebas;
+    color: #808080b0;
+    margin-top: 26px;
+    font-size: 36px;
+   
+
+}
+button.tshirt{
+   color: white;
+    background-color: #1dad7e;
+    padding: 13px 26px;
+    
+    border: none;
+    border-radius: 5px;
+    
+}
+span.tshirt{
+   border-left: 1px solid #80808040;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+   
+}
+img.short{
+   margin-top: 35px;
+    width: 50%;
+  
+
+}
+p.short{
+   font-family: bebas;
+    color: #808080b0;
+    margin-top: 32px;
+    font-size: 36px;
+   
+
+}
+button.short{
+   color: white;
+   background-color: #1dad7e;
+   padding: 13px 26px;
+   
+   border: none;
+   border-radius: 5px;
+    
+}
+.feature{
+   font-family: bebas;
+   margin-top: 18px;
+    font-size: 36px;
+    color: white;
+    
+}
+
+
+.products{
+   background-color: white;
+    
+    
+}
+.shoescat{
+   margin-left: 59px;
+}
+
+img.shoesred{
+   margin-top: 73px;
+}
+
+ p.shoesred{
+   font-family: bebas;
+   
+   color: #8080808f;
+    margin: 0;
+    margin-left: 20px;
+    font-size: 36px;
+    
+
+}
+button.shoesred{
+   color: white;
+   background-color: #1dad7e;
+   padding: 13px 21px;
+   
+   border: none;
+   border-radius: 5px;
+   margin-left: 12px;
+   font-size: 19px;
+    
+}
+h4.shoesred2{
+   font-family: bebas;
+   display: inline-block;
+  
+   color: #8080808f;
+    margin: 0;
+    margin-left: 20px;
+     font-size: 36px; 
+    
+
+}
+
+hr.shoesred{
+   border-top: 6px solid #1dad7ebf;
+   width: 309px;
+    margin-left: 12px;
+   
+  
+}
+.tshirtcat{
+   margin-left: 69px;
+}
+img.tshirtblack{
+   width: 40%;
+   margin-top: 58px;
+   
+}
+p.tshirtblack{
+   font-family: bebas;
+   
+   color: #8080808f;
+    margin: 0;
+    margin-left: -3px;
+    font-size: 32px;
+
+}
+h4.tshirtblack2{
+   font-family: bebas;
+   display: inline-block;
+  
+   color: #8080808f;
+    margin: 0;
+    
+     font-size: 36px; 
+
+}
+button.tshirtblack{
+   color: white;
+   background-color: #1dad7e;
+   padding: 13px 21px;
+   
+   border: none;
+   border-radius: 5px;
+   margin-left: 12px;
+   font-size: 19px;
+    
+}
+hr.tshirtblack{
+   border-top: 6px solid #1dad7ebf;
+   width: 309px;
+    margin-left: 12px;
+  
+}
+.greycat{
+   margin-left: 69px;
+}
+img.tshirtgrey{
+   margin-top: 62px;
+    width: 34%;
+}
+p.tshirtgrey{
+   font-family: bebas;
+   
+   color: #8080808f;
+    margin: 0;
+    margin-left: -3px;
+    font-size: 32px;
+  
+
+}
+h4.tshirtgrey2{
+   font-family: bebas;
+   display: inline-block;
+  
+   color: #8080808f;
+    margin: 0;
+    
+     font-size: 36px; 
+
+}
+button.tshirtgrey{
+   color: white;
+   background-color: #1dad7e;
+   padding: 13px 21px;
+  
+   border: none;
+   border-radius: 5px;
+   margin-left: 12px;
+   font-size: 19px;
+    
+}
+hr.tshirtgrey{
+   border-top: 6px solid #1dad7ebf;
+   width: 309px;
+    margin-left: 12px;
+}
+
+
+
+img.wallet{
+   margin-top: 132px;
+   width: 49%;
+   margin-left: 48px;
+}
+p.wallet{
+   font-family: bebas;
+   
+   color: #8080808f;
+    margin: 0;
+    margin-left: 89px;
+    font-size: 36px;
+    
+   
+
+}
+h4.wallet2{
+   font-family: bebas;
+   display: inline-block;
+  
+   color: #8080808f;
+    margin: 0;
+    margin-left: 86px;
+     font-size: 36px; 
+
+}
+button.wallet{
+   color: white;
+   background-color: #1dad7e;
+   padding: 13px 21px;
+   
+   border: none;
+   border-radius: 5px;
+   margin-left: 12px;
+   font-size: 19px;
+    
+}
+
+hr.wallet{
+   border-top: 6px solid #1dad7ebf;
+   width: 317px;
+    margin-left: 12px;
+    margin-bottom: 76px;
+  
+}
+img.bag{
+   margin-top: 130px;
+   width: 44%;
+   margin-left: 67px;
+}
+
+p.bag{
+   font-family: bebas;
+   
+   color: #8080808f;
+    margin: 0;
+    margin-left: 87px;
+    font-size: 32px;
+
+
+}
+h4.bag2{
+   font-family: bebas;
+   display: inline-block;
+   
+   color: #8080808f;
+    margin: 0;
+    margin-left: 82px;
+    
+     font-size: 36px;
+
+}
+button.bag{
+   color: white;
+   background-color: #1dad7e;
+   padding: 13px 21px;
+   
+   border: none;
+   border-radius: 5px;
+   margin-left: 12px;
+   font-size: 19px;
+    
+    
+}
+hr.bag{
+   border-top: 6px solid #1dad7ebf;
+   width: 309px;
+    margin-left: 12px;
+}
+img.cargos{   
+   margin-top: 134px;
+   margin-left: 125px;
+   width: 22%;
+   
+}
+p.cargos{
+   font-family: bebas;
+   
+   color: #8080808f;
+    margin: 0;
+    margin-left: 90px;
+    font-size: 32px;
+  
+
+}
+h4.cargos{
+   font-family: bebas;
+    display: inline-block;
+    color: #8080808f;
+    margin: 0;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    font-size: 36px;
+
+}
+button.cargos{
+   color: white;
+   background-color: #1dad7e;
+   padding: 13px 21px;
+  
+   border: none;
+   border-radius: 5px;
+   margin-left: 12px;
+   font-size: 19px;
+    
+}
+hr.cargos{
+   border-top: 6px solid #1dad7ebf;
+   width: 309px;
+    margin-left: 12px;
+}
+h4.footer{
+   color: white;
+   font-family: bebas;
+   font-size: 33px;
+    padding: 38px;
+}
+ul.featured{
+    list-style-type: none;
+}
+li.featured{
+   padding: 2px;
+   color: white;
+   padding-bottom: 11px;
+   font-size: 21px;
+}
+div.footer{
+   
+   background: #3d8e83de;
+}
+div.footer p{
+   color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 22px;
+    padding-bottom: 16px;
+    margin: 0;
+}
